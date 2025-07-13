@@ -1,0 +1,10 @@
+version: "3"
+agent:
+    authtoken:
+tunnels:
+    novnc:
+        proto: http
+        addr: 8006
+    rdp:
+        proto: tcp
+        addr: 3886
